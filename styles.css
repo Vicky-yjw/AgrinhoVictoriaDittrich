@@ -11,13 +11,10 @@
     --font-titulo: "Rakkas", serif;
 }
 
-/* código omitido */
-/* código omitido */
-
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5;
     box-sizing: border-box;
     font-family: var(--font-body);
 }
@@ -27,6 +24,10 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
+}
+
+h2 {
+    margin-top: 30px;
 }
 
 h3 {
@@ -39,4 +40,8 @@ p {
 
 img {
     max-width: 90%;
+}
+
+.indentado {
+  margin-left: 15px; /* ajuste o valor como quiser */
 }
