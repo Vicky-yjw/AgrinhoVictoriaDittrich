@@ -133,3 +133,10 @@ footer {
     padding: 10px;
   }
 }
+
+/* Adicione isto ao seu CSS */
+p.alinhado-imagem {
+  width: 680px;
+  margin: 2px auto;
+  text-align: left;
+}
