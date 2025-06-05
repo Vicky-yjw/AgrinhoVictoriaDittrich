@@ -136,8 +136,18 @@ p.alinhado-imagem {
   margin: 2px auto;
   text-align: left;
 }
+
 nav {
   margin: 2px;
   text-align: center;
-  text-decoration: underline;
+}
+
+nav ul {
+  padding-left: 0;          
+  list-style: none;         
+}
+
+nav li::before {
+  content: "•";             
+  margin-right: 8px;        
 }
