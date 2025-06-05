@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
-  --primary-color: #026773;
-  --secondary-color: #3CA6A6;
-  --text-color: #024959;
+  --primary-color: #173792;
+  --secondary-color: #3c66a6;
+  --text-color: #020b59;
   --background-color: #F2E3D5;
   --button-hover: #012E40;
   --font-body: 'Noto Serif', serif;
   --font-titulo: 'Noto Serif', serif;
 }
+
 
 
 body, h1, h2, h3, p, ul, li {
@@ -86,22 +87,6 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-.cta-button {
-  display: inline-block;
-  background-color: var(--primary-color);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  margin: 20px 0;
-  transition: background-color 0.2s ease;
-}
-
-.cta-button:hover, .cta-button:focus {
-  background-color: var(--button-hover);
-  text-decoration: none;
-}
-
-
 ul {
   margin-left: 20px;
   padding-left: 20px;
@@ -126,7 +111,7 @@ iframe {
 footer {
   margin-top: 40px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   border-top: 1px solid var(--secondary-color);
 }
 
