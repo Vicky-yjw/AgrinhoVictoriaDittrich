@@ -134,9 +134,13 @@ footer {
   }
 }
 
-/* Adicione isto ao seu CSS */
 p.alinhado-imagem {
   width: 680px;
   margin: 2px auto;
   text-align: left;
+}
+nav {
+  margin: 2px;
+  text-align: center;
+  text-decoration: underline;
 }
